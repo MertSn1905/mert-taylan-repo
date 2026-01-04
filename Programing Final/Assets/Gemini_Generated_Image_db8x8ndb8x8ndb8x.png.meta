@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 69558f294d49acb469d0c6e8b63c27cf
+guid: 65697f4a70b0f904a85b8afe2d630da5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8205890600244956396
-    second: dark-red-color-solid-background-1920x1080_0
+      213: 7011888722653359490
+    second: Gemini_Generated_Image_db8x8ndb8x8ndb8x_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dark-red-color-solid-background-1920x1080_0
+      name: Gemini_Generated_Image_db8x8ndb8x8ndb8x_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1792
+        height: 772
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cec4155360e21e170800000000000000
-      internalID: 8205890600244956396
+      spriteID: 28d225684ab3f4160800000000000000
+      internalID: 7011888722653359490
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      dark-red-color-solid-background-1920x1080_0: 8205890600244956396
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

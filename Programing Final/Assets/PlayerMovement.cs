@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private int playerId; // 1 veya 2
+    [SerializeField] private int playerId; // 1 or 2
     [SerializeField] private float moveSpeed = 5f;
+
+    [Header("Respawn")]
+    [SerializeField] private Transform spawnPoint;
 
     private Rigidbody2D rb;
     private Vector2 movement;
@@ -19,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (playerId == 1)
         {
-            // PLAYER 1 ? WASD
+            // PLAYER 1 - WASD
             if (Input.GetKey(KeyCode.A)) movement.x = -1;
             if (Input.GetKey(KeyCode.D)) movement.x = 1;
             if (Input.GetKey(KeyCode.W)) movement.y = 1;
@@ -27,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (playerId == 2)
         {
-            // PLAYER 2 ? OK TU�LARI
+            // PLAYER 2 - ARROW KEYS
             if (Input.GetKey(KeyCode.LeftArrow)) movement.x = -1;
             if (Input.GetKey(KeyCode.RightArrow)) movement.x = 1;
             if (Input.GetKey(KeyCode.UpArrow)) movement.y = 1;
@@ -41,4 +44,15 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.linearVelocity = movement * moveSpeed;
     }
+
+    // =========================
+    // RESPAWN (CALLED ON GOAL)
+    // =========================
+    public void Respawn()
+    {
+        transform.position = spawnPoint.position;
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+    }
 }
+

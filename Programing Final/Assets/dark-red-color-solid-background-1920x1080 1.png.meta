@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 69558f294d49acb469d0c6e8b63c27cf
+guid: 08f3bc486e83bd145ae046b6375923e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8205890600244956396
-    second: dark-red-color-solid-background-1920x1080_0
+      213: 1390059559140492076
+    second: dark-red-color-solid-background-1920x1080 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dark-red-color-solid-background-1920x1080_0
+      name: dark-red-color-solid-background-1920x1080 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cec4155360e21e170800000000000000
-      internalID: 8205890600244956396
+      spriteID: c23843fddcb7a4310800000000000000
+      internalID: 1390059559140492076
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      dark-red-color-solid-background-1920x1080_0: 8205890600244956396
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
