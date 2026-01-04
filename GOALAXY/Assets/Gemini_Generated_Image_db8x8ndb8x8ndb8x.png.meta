@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gemini_Generated_Image_db8x8ndb8x8ndb8x_0: 7011888722653359490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
